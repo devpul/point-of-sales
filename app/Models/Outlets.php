@@ -6,5 +6,13 @@ use Illuminate\Database\Eloquent\Model;
 
 class Outlets extends Model
 {
-    //
+    protected $table = 'outlets';
+
+    protected $fillable = [
+        'name',
+        'address',
+        'phone',
+        'email',
+        'status',
+    ]; 
 }

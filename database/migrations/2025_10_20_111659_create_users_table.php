@@ -20,7 +20,7 @@ return new class extends Migration
             $table->enum('level', ['admin', 'kasir', 'manager'])->default('kasir');
             $table->dateTime('registered_at');
             $table->dateTime('updated_at');
-            $table->enum('status', ['active, suspend']);
+            $table->enum('status', ['active','suspend']);
         });
     }
 
