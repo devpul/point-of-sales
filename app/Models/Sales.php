@@ -6,6 +6,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class Sales extends Model
 {
+<<<<<<< HEAD
     protected $table = 'sales';
     
     protected $fillable = [
@@ -23,4 +24,7 @@ class Sales extends Model
         'receipt_method',
         'description',
     ];
+=======
+    //
+>>>>>>> 19f1569bc844df1acab00ead23a43dfd1681a768
 }
